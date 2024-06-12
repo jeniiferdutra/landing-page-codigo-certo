@@ -6,10 +6,10 @@ body {
     font-style: normal;
 }
 
-nav {
+.menu {
     display: flex;
     justify-content: flex-end;
-    background-color: #e539398f;
+    background-color: #e53939;
     padding: 0.1%;
 }
 
@@ -34,41 +34,57 @@ li a:hover {
     width: 100%;
 }
 
-.subtitulo01 {
-    margin: 3% 6% ;
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 23px;
 }
 
+.text {
+    padding: 15px;
+}
+    
 .subtitulo {
-    margin: -1% 6%;
+    padding-top: 33px;        
 }
 
 p {
-    margin: 3% 10%;
-    letter-spacing: 0.5px;
+    max-width: 800px;
 }
 
+.imagem {
+    max-width: 450px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
 .contato {
     background-color: rgba(128, 128, 128, 0.077);
     padding: 1%;
+    margin: 0;
     text-align: center;
 }
 
 .subtitulo-contato {
     font-size: 28px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 form {
-    max-width: 400px;
-    margin: 20px auto;
+    max-width: 360px;
+    margin: 45px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
 }
+
 label {
     display: block;
     margin-bottom: 10px;
 }
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -79,6 +95,7 @@ textarea {
     border-radius: 5px;
     box-sizing: border-box; /* Garante que o preenchimento e a borda não aumentem o tamanho total */
 }
+
 input[type="submit"] {
     background-color: #e53939;
     color: white;
@@ -87,15 +104,25 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
+
 input[type="submit"]:hover {
     background-color: #e53939;
 }
 
+.imagem-forms {
+    display: flex;
+    width: 400px;
+}
+
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: #e53939;
 }
 
-.copy {
-    margin: 0 2%;
-    padding: 8px;
+
+
+.icon {
+    max-width: 46px;
+    display: inline;
 }
