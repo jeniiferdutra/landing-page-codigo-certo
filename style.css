@@ -93,7 +93,7 @@ textarea {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; /* Garante que o preenchimento e a borda não aumentem o tamanho total */
+    box-sizing: border-box;
 }
 
 input[type="submit"] {
@@ -119,8 +119,6 @@ input[type="submit"]:hover {
     justify-content: center;
     background-color: #e53939;
 }
-
-
 
 .icon {
     max-width: 46px;
